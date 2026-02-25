@@ -27,8 +27,8 @@ jobs:
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
-          server: ftp.t8b.9b9.mytemp.website
-          username: ftp.thekattis.com@t8b.9b9.mytemp.website
+          server: ftp.thekattis.com
+          username: brand-website@thekattis.com
           password: JohnPris4510*
           protocol: ftps
           local-dir: dist/
