@@ -30,5 +30,6 @@ jobs:
           server: ftp.t8b.9b9.mytemp.website
           username: ftp.thekattis.com@t8b.9b9.mytemp.website
           password: JohnPris4510*
+          protocol: ftps
           local-dir: dist/
           server-dir: /public_html/
