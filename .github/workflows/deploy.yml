@@ -30,6 +30,6 @@ jobs:
           server: ftp.thekattis.com
           username: brand-website@thekattis.com
           password: JohnPris4510*
-          protocol: ftps
+          protocol: ftp
           local-dir: dist/
           server-dir: /public_html/
