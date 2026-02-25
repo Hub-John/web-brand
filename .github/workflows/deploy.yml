@@ -24,7 +24,7 @@ jobs:
       - name: Build Project
         run: npm run build
 
-      - name: FTP Deploy
+      - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
           server: ftp.thekattis.com
