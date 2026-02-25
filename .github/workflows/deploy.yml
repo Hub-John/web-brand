@@ -24,8 +24,8 @@ jobs:
       - name: Build Project
         run: npm run build
 
-      - name: Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
           server: ftp.t8b.9b9.mytemp.website
           username: ftp.thekattis.com@t8b.9b9.mytemp.website
