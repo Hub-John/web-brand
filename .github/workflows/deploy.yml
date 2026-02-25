@@ -27,8 +27,8 @@ jobs:
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          server: ftp.t8b.9b9.mytemp.website
+          username: ftp.thekattis.com@t8b.9b9.mytemp.website
+          password: JohnPris4510*
           local-dir: dist/
           server-dir: /public_html/
