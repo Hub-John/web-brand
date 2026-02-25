@@ -16,7 +16,7 @@ jobs:
       - name: Install Node
         uses: actions/setup-node@v3
         with:
-          node-version: 24
+          node-version: 20
 
       - name: Install Dependencies
         run: npm install
@@ -29,7 +29,7 @@ jobs:
         with:
           server: ftp.thekattis.com
           username: brand-website@thekattis.com
-          password: JohnPris4510*
+          password: JohnAnosh9879*
           local-dir: dist/
           server-dir: /public_html/
           dangerous-clean-slate: true
