@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import viteLogo from './assets/background.jpg'
 import './App.css'
 
 function App() {
@@ -8,27 +7,8 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React + Johnson</h1>
-      <h1>Vite + React + Priscilla</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count{count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR - Johnson & Priscilla
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <h1 className='title-text'>The Katti's - Where Family Flavors Come Alive!</h1>
+      <h3 className='pro-owner'>- Priscilla Katti</h3>
     </>
   )
 }
