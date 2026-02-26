@@ -4,3 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/qag8m8i3jft5/Hub-John/web-brand/public_html
     - /bin/rm -rf $DEPLOYPATH/*
     - /bin/cp -r dist/* $DEPLOYPATH
+    - /bin/date > $DEPLOYPATH/test.txt
