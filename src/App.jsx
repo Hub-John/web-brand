@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <h1 className='title-text'>The Katti's - Where Family Flavors Come Alive!</h1>
-      <h3 className='pro-owner'>- Priscilla Katti</h3>
+      <h3 className='pro-owner'>Proprietor: Priscilla Katti</h3>
     </>
   )
 }
