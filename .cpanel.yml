@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/qag8m8i3jft5/public_html
+    - /Users/admin/Brand/web-brand/npm install
+    - /Users/admin/Brand/web-brand/npm run build
+    - /bin/rm -rf $DEPLOYPATH/*
+    - /bin/cp -r dist/* $DEPLOYPATH
