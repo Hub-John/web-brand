@@ -19,7 +19,7 @@ function App() {
       <h1>Vite + React + Johnson</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is testing for my{count}
+          count is testing for my own{count}
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
