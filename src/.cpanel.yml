@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo "===== Deployment Started ====="
+
+# Go to project folder
+cd /Users/admin/Brand/web-brand
+
+# Pull latest changes
+git pull origin main
+
+# Install dependencies
+npm install
+
+# Build Vite project
+npm run build
+
+# Remove old website files
+rm -rf /home/yourcpaneluser/public_html/*
+
+# Copy new build files to public_html
+cp -r dist/* https://sg2plzcpnl508754.prod.sin2.secureserver.net:2083/cpsess4584325967/frontend/jupiter/filemanager/public_html/
+
+echo "===== Deployment Finished ====="
