@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import viteLogo from './assets/background.jpg'
+import logo from './assets/thekattis.png'
 import './App.css'
 
 function App() {
@@ -7,7 +7,8 @@ function App() {
 
   return (
     <>
-      <h1 className='title-text'>The Katti's - Where Family Flavors Come Alive!</h1>
+      <img src={logo} alt="The Katti's" width="450" height="450" />
+      <h1 className='title-text'>The Katti's - Royal Authentic Aroma</h1>
       <h3 className='pro-owner'>Proprietor: Priscilla Katti</h3>
     </>
   )
