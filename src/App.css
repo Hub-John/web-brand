@@ -30,14 +30,10 @@
 .title-text {
   color: #f6b092;
   font-size: 2rem;
-  position: absolute;
-  bottom: 10%;
-  right: 5%;
+  margin: 0.4em 0;
 }
 .pro-owner {
   color: #f6b092;
   font-size: 1.6rem;
-  position: absolute;
-  bottom: 4%;
-  right: 5%;
+  margin: 0;
 }
