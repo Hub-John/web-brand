@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  background: #d958581a;
+}
+
 #root {
   max-width: 1281px;
   margin: 0 auto;
@@ -5,19 +10,9 @@
   text-align: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.logo {
+  height: 100%;
+  max-width: 100%;
 }
 
 .card {
@@ -29,11 +24,11 @@
 }
 .title-text {
   color: #f6b092;
-  font-size: 2rem;
+  font-size: 4vw;
   margin: 0.4em 0;
 }
 .pro-owner {
   color: #f6b092;
-  font-size: 1.6rem;
+  font-size: 4vw;
   margin: 0;
 }
