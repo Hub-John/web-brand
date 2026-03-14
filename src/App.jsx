@@ -9,7 +9,7 @@ function App() {
     <>
       <img src={logo} alt="The Katti's" width="450" height="450" className="logo" />
       {/* <h3 className='pro-owner'>Proprietor: Priscilla Katti</h3> */}
-      <h1 className='title-text'>🚀 Explosive Launch Incoming</h1>
+      <h1 className='title-text'>🚀 Explosive Launch Incoming 🚀</h1>
       
     </>
   )
