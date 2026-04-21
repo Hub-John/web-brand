@@ -260,9 +260,9 @@ export default function App() {
             <p className="footer__tagline">Royal Authentic Aroma</p>
           </div>
           <div className="footer__info">
-            <p>📍 123 Spice Lane, Flavour City</p>
-            <p>📞 +1 (555) 000-1234</p>
-            <p>🕐 Mon–Sun: 11am – 10pm</p>
+            <p>📍 Flat No. 310, A Wing, Building No.3, Vakil Nagar Housing Society, Behind Meenal Garden, Next to Sevasadan School, Erandanwana, Pune</p>
+            <p>📞 +91 8390890694</p>
+            <p>🕐 Mon–Sat: 11am – 10pm</p>
           </div>
           <div className="footer__copy">
             <p>© 2026 The Katti's. All rights reserved.</p>
