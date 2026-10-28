@@ -260,7 +260,7 @@ export default function App() {
             <p className="footer__tagline">Royal Authentic Aroma</p>
           </div>
           <div className="footer__info">
-            <p>📍 Flat No. 310, A Wing, Building No.3, Vakil Nagar Housing Society, Behind Meenal Garden, Next to Sevasadan School, Erandanwanee, Pune</p>
+            <p>📍 Flat No. 310, A Wing, Building No.3, Vakil Nagar Housing Society, Behind Meenal Garden, Next to Sevasadan School, Erandanwane, Pune</p>
             <p>📞 +91 8390890694</p>
             <p>🕐 Mon–Sat: 11am – 10pm</p>
           </div>
