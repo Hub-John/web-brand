@@ -256,7 +256,7 @@ export default function App() {
       <footer className="footer">
         <div className="footer__inner">
           <div className="footer__brand">
-            <img src={logo} alt="The Katti's" className="footer__logo" />
+            <div className="small__footer"><img src={logo} alt="The Katti's" className="footer__logo" /></div>
             <p className="footer__tagline">Royal Authentic Aroma</p>
           </div>
           <div className="footer__info">
